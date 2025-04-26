@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a4a;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    width: 80px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 0 5px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.slide:hover {
+    width: 300px;
+}
